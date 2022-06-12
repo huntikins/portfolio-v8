@@ -9,7 +9,7 @@ export const Section: FunctionComponent<ISectionProps> = ({
   const sectionClass = classNames({
     "bg-light text-primary": theme === "primary",
     "bg-secondary text-light": theme === "secondary",
-    "bg-tertiary text-light": theme === "tertiary",
+    "bg-tertiary bg-opacity-20 text-primary": theme === "tertiary",
     "px-4 py-8 max-w-screen-xl mx-auto": true,
   });
 

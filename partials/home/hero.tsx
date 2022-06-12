@@ -51,7 +51,7 @@ export const Hero: FunctionComponent = () => {
         </div>
       </div>
       <p className="py-4">
-        Greetings! My name is Hunter and i&apos;m a Front End Developer from
+        I&apos;m a Front End Developer from
         Kansas City. Welcome to my blog, here I will post anything from short
         stories to articles about different coding concepts and tutorials. I
         hope you enjoy, <em>Happy Coding</em>!

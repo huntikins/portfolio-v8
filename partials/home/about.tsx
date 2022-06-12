@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
 import { Section } from "../../components/layout/section";
+import { Button } from "../../components/ui/button";
 import { Heading } from "../../components/ui/heading";
 import graphic from "../../public/home-about.svg";
 
@@ -9,29 +10,36 @@ export const About: FunctionComponent = () => {
     <Section theme="tertiary">
       <div className="flex flex-col lg:flex-row">
         <div className="order-2 lg:w-1/2 lg:order-1">
-          <Heading level={2} theme="light">
-            Get To Know Me
-          </Heading>
+          <Heading level={2}>Get To Know Me</Heading>
           <p className="py-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
-            vero hic quaerat illo cupiditate. Officia fuga excepturi nisi fugiat
-            quaerat quo neque impedit? Hic, vitae qui. Labore exercitationem
-            quia nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Excepturi, voluptas ipsam! Neque sequi consequatur illum eos nostrum
-            voluptatum illo repellendus suscipit. In tempora et dolor tenetur
-            reiciendis doloribus, iusto accusantium.
+            Howdy folks, my name is Hunter and I am a Front End Developer
+            currently working at VMLY&R. Wether it is writing, writing about,
+            teaching or learning code; I just can’t get enough. I started my
+            coding journey in 2019 when I made a career switch as an IT Help
+            Desk agent and enrolled in a coding bootcamp through a local
+            university. It was then during that course that I truly fell in love
+            with coding. I recently had the opportunity to teach the very same
+            course that I took when I got my start as a developer and it was a
+            great experience. I currently enjoy working with Next.js, Webpack,
+            AEM, Alpine.js, TypeScript and Tailwind but am always learning and
+            revisiting technologies.
           </p>
-          <Heading level={3} theme="light">
-            What I Am Currently Working With:
-          </Heading>
-          <ul className="list-dash pl-4 pt-2">
-            <li className="pl-2">Next.js</li>
-            <li className="pl-2">Webpack</li>
-            <li className="pl-2">Adobe Experience Manager</li>
-            <li className="pl-2">Alpine.js</li>
-            <li className="pl-2">TypeScript</li>
-            <li className="pl-2">Tailwind</li>
-          </ul>
+          <div className="flex flex-col lg:flex-row">
+            <Button
+              type="link"
+              path="https://twitter.com/@trammellwebdev"
+              newTab={true}
+              label="Connect With Me On Twitter"
+              theme="primary"
+            />
+            <Button
+              type="link"
+              path="https://linkedin.com/in/huntertrammell"
+              newTab={true}
+              label="Connect With Me On LinkedIn"
+              theme="secondary"
+            />
+          </div>
         </div>
         <div className="order-1 lg:w-1/2 lg:order-2 lg:px-8">
           <Image

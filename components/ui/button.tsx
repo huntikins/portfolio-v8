@@ -14,7 +14,7 @@ export const Button: FunctionComponent<IButtonProps> = ({
   const btnClass = classNames({
     "bg-primary text-light": theme === "primary",
     "bg-light text-primary": theme === "secondary",
-    "py-2 px-4 inline-block font-bold hover:opacity-80 border-2 border-primary":
+    "py-2 px-4 inline-block font-bold hover:opacity-80 border-2 border-primary my-2 mr-2 text-center":
       true,
   });
 
