@@ -9,7 +9,7 @@ export const About: FunctionComponent = () => {
   return (
     <Section theme="tertiary">
       <div className="flex flex-col lg:flex-row">
-        <div className="order-2 lg:w-1/2 lg:order-1">
+        <div className="order-2 pt-8 lg:pt-0 lg:w-1/2 lg:order-1">
           <Heading level={2}>Get To Know Me</Heading>
           <p className="py-4">
             Howdy folks, my name is Hunter and I am a Front End Developer
@@ -29,7 +29,7 @@ export const About: FunctionComponent = () => {
               type="link"
               path="https://twitter.com/@trammellwebdev"
               newTab={true}
-              label="Connect With Me On Twitter"
+              label="Follow Me On Twitter"
               theme="primary"
             />
             <Button
@@ -45,6 +45,8 @@ export const About: FunctionComponent = () => {
           <Image
             src={graphic}
             alt="illustration of coder sitting at desk with computer eauipment coding."
+            width={358}
+            height={260}
           />
         </div>
       </div>

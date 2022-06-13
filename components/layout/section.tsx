@@ -10,6 +10,7 @@ export const Section: FunctionComponent<ISectionProps> = ({
     "bg-light text-primary": theme === "primary",
     "bg-secondary text-light": theme === "secondary",
     "bg-tertiary bg-opacity-20 text-primary": theme === "tertiary",
+    "bg-white text-primary": theme === 'none',
     "px-4 py-8 max-w-screen-xl mx-auto": true,
   });
 

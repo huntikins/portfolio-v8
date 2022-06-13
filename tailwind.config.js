@@ -13,9 +13,9 @@ module.exports = {
       light: "#FDF7FA",
     },
     listStyleType: {
-      dash: "\'⭐️\'",
+      dash: "'⭐️'",
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

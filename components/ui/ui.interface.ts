@@ -13,3 +13,12 @@ export interface IHeadingProps {
   theme?: "primary" | "secondary" | "light";
   align?: "center" | "left" | "right";
 }
+
+export interface ICardProps {
+    title: string;
+    image: string;
+    imageAlt: string;
+    description: string;
+    tags: string[];
+    path: string;
+}
