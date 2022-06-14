@@ -37,7 +37,7 @@ export const Card: FunctionComponent<ICardProps> = ({
       <div className="px-6 pb-4">
         <Heading level={3}>{title}</Heading>
         <p className="text-dark">{description}</p>
-        <Button label="Read More" type="link" path={path} />
+        <Button label="Read Article" type="link" path={path} />
       </div>
     </article>
   );

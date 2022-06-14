@@ -59,7 +59,7 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
 export default Home;
 
 export async function getStaticProps() {
-  const {data} = await supabase.from('posts').select().limit(9)
+  const {data} = await supabase.from('posts').select().limit(6)
   return {
     props: {
       posts: data
