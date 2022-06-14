@@ -13,16 +13,15 @@ export const About: FunctionComponent = () => {
           <Heading level={2}>Get To Know Me</Heading>
           <p className="py-4">
             Howdy folks, my name is Hunter and I am a Front End Developer
-            currently working at VMLY&R. Wether it is writing, writing about,
-            teaching or learning code; I just can’t get enough. I started my
-            coding journey in 2019 when I made a career switch as an IT Help
-            Desk agent and enrolled in a coding bootcamp through a local
-            university. It was then during that course that I truly fell in love
-            with coding. I recently had the opportunity to teach the very same
-            course that I took when I got my start as a developer and it was a
-            great experience. I currently enjoy working with Next.js, Webpack,
-            AEM, Alpine.js, TypeScript and Tailwind but am always learning and
-            revisiting technologies.
+            currently working at VMLY&R. Whether it&apos;s writing, teaching,
+            learning, or writing about code - I just can&apos;t get enough. I started
+            my coding journey in 2019 when I made a career switch from being an
+            IT Help Desk agent and enrolled in a coding bootcamp through a local
+            university. It was then that I truly fell in love with coding. I
+            recently had the opportunity to teach that very same course and it
+            was a great experience. I currently enjoy working with Next.js,
+            Webpack, AEM, Alpine.js, TypeScript and Tailwind but am always
+            learning and revisiting technologies.
           </p>
           <div className="flex flex-col lg:flex-row">
             <Button
