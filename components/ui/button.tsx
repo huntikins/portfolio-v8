@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import Link from "next/link";
 import { FunctionComponent } from "react";
-import { IButtonProps } from "./ui.interface";
+import { IButtonProps } from "../../interfaces/ui.interface";
 
 export const Button: FunctionComponent<IButtonProps> = ({
   type,

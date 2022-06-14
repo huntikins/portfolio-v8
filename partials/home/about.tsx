@@ -41,12 +41,12 @@ export const About: FunctionComponent = () => {
             />
           </div>
         </div>
-        <div className="order-1 lg:w-1/2 lg:order-2 lg:px-8">
+        <div className="order-1 lg:w-1/2 lg:order-2 lg:px-8 lg:flex lg:items-center lg:justify-center">
           <Image
             src={graphic}
             alt="illustration of coder sitting at desk with computer eauipment coding."
-            width={358}
-            height={260}
+            width={716}
+            height={520}
           />
         </div>
       </div>

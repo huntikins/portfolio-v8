@@ -11,6 +11,7 @@ module.exports = {
       secondary: "#5B2A86",
       tertiary: "#7785AC",
       light: "#FDF7FA",
+      dark: "#291720",
     },
     listStyleType: {
       dash: "'⭐️'",

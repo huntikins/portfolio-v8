@@ -10,7 +10,7 @@ export interface IButtonProps {
 export interface IHeadingProps {
   level: 1 | 2 | 3 | 4;
   children: React.ReactNode;
-  theme?: "primary" | "secondary" | "light";
+  theme?: "primary" | "secondary" | "light" | "dark";
   align?: "center" | "left" | "right";
 }
 

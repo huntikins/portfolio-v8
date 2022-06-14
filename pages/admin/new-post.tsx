@@ -60,7 +60,7 @@ const NewPost: NextPage = () => {
     if (error) {
       alert(JSON.stringify(error));
     } else {
-      console.log(data);
+      router.push(`/blog/${pathVal}`);
     }
   };
 

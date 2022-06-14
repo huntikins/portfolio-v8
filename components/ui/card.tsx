@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
 import Image from "next/image";
 import { Heading } from "./heading";
-import { ICardProps } from "./ui.interface";
-import Link from "next/link";
+import { ICardProps } from "../../interfaces/ui.interface";
+import { Button } from "./button";
 
 export const Card: FunctionComponent<ICardProps> = ({
   title,
@@ -15,15 +15,15 @@ export const Card: FunctionComponent<ICardProps> = ({
   return (
     <article className="max-w-sm rounded overflow-hidden shadow-lg bg-tertiary bg-opacity-20 mb-4">
       <div className="w-full">
-        <Image src={image} alt={imageAlt} width={358} height={260} layout="responsive"/>
+        <Image
+          src={image}
+          alt={imageAlt}
+          width={358}
+          height={260}
+          layout="responsive"
+        />
       </div>
-      <div className="px-6 py-4">
-        <Heading level={3}>{title}</Heading>
-        <p className="text-primary">
-          {description} <Link href={path}>Read More</Link>
-        </p>
-      </div>
-      <div className="px-6 pt-4 pb-2">
+      <div className="px-6 pt-4">
         {tags.length &&
           tags.map((tag, index) => (
             <span
@@ -33,6 +33,11 @@ export const Card: FunctionComponent<ICardProps> = ({
               {tag}
             </span>
           ))}
+      </div>
+      <div className="px-6 pb-4">
+        <Heading level={3}>{title}</Heading>
+        <p className="text-dark">{description}</p>
+        <Button label="Read More" type="link" path={path} />
       </div>
     </article>
   );
