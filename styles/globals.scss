@@ -67,4 +67,16 @@
       margin-bottom: 0;
     }
   }
+
+  ol,
+  ul,
+  menu {
+    list-style: initial;
+    margin: 1.6rem 0;
+    padding-left: 4rem;
+  }
+
+  ol {
+    list-style: numeric;
+  }
 }

@@ -65,6 +65,7 @@ export async function getStaticProps() {
     "slug",
     "tags",
     "image",
+    "created_at"
   ]);
 
   return {

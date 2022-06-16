@@ -2,7 +2,7 @@
 title: "How to use the Intersection Observer API to lazy load your images"
 description: "Using the Intersection Observer can be a great way to add performance boosts to your website. In this article we will take a look at how the Intersection Observer works and how you can lazy load your images."
 image: "/intersection-observer.jpg"
-created_at: "06-15-2022"
+created_at: "06/15/2022"
 tags: ["Project", "JavaScript"]
 ---
 
@@ -81,7 +81,7 @@ observer.observe(someEl);
 
 ## Using Intersection Observer to Lazy Load Images
 
-Now that we have the basics of how to use an Intersection Observer let's do something with it. We will continue to build off the previous example, but this time we will add some logic to our callback function to handle lazy loading the images. Getting the images to lazy load is pretty straight forward.
+Now that we have the basics of how to use an Intersection Observer let's do something with it. We will continue to build off the previous example, but this time we will add some logic to our callback function to handle lazy loading of the images. Getting the images to lazy load is pretty straightforward.
 
 When the image is rendered we will give it a placeholder source, try grabbing one from [placeholder.com](https://placeholder.com/) or using a low res blurred version of the photo to render. The real image source is stored in a data attribute on the image and when the element enters the viewport we grab that real url and replace the placeholder source.
 
@@ -102,7 +102,7 @@ const callback = (entries) => {
 
 ![Steven Colbert saying "that's about it"](https://media1.giphy.com/media/l3vQY4uui06iabkli/giphy.gif?cid=ecf05e47b2u912uks198oeopdarcf4z1wriot9lf7zrdlyvf&rid=giphy.gif&ct=g)
 
-Understanding how the Intersection Observer can be challenging, it took me a few passes to understand how it works. I found this [Intersection Observer Playground](https://wilsotobianco.com/experiments/intersection-observer-playground/) very helpful. I hope you enjoyed this article and learned a little bit more about how the Intersection Observer works and how you can easily add lazy loading to any project! 
+Understanding the Intersection Observer API can be challenging, it took me a few passes to understand how it works. I found this [Intersection Observer Playground](https://wilsotobianco.com/experiments/intersection-observer-playground/) very helpful. I hope you enjoyed this article and learned a little bit more about how the Intersection Observer works and how you can easily add lazy loading to any project! 
 
 Happy Coding!
 

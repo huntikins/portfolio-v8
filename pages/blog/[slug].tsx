@@ -20,6 +20,7 @@ const BlogPost = ({ post }: any) => {
         <title>{post.title}</title>
         <meta name="title" content={post.title} />
         <meta name="description" content={post.description} />
+        {post.canonical && <link rel="canonical" href={post.canonical} />}
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
@@ -88,6 +89,7 @@ export async function getStaticProps({ params }: Params) {
     "content",
     "image",
     "tags",
+    "canonical",
   ]);
   const content = await markdownToHtml(post.content || "");
 
