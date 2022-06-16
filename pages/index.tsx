@@ -4,7 +4,7 @@ import { IHomeProps } from "../interfaces/page.interface";
 import { About } from "../partials/home/about";
 import { Blog } from "../partials/home/blog";
 import { Hero } from "../partials/home/hero";
-import { supabase } from "../utils/client";
+import { getAllPosts } from "../utils/api";
 
 const Home: NextPage<IHomeProps> = ({posts}) => {
   return (
@@ -59,10 +59,17 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
 export default Home;
 
 export async function getStaticProps() {
-  const {data} = await supabase.from('posts').select().limit(6)
+  const  data  = getAllPosts([
+    "title",
+    "description",
+    "slug",
+    "tags",
+    "image",
+  ]);
+
   return {
     props: {
       posts: data
-    }, // will be passed to the page component as props
+    },
   };
 }

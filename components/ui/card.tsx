@@ -9,7 +9,7 @@ export const Card: FunctionComponent<ICardProps> = ({
   image,
   imageAlt,
   description,
-  path,
+  slug,
   tags,
 }) => {
   return (
@@ -36,8 +36,8 @@ export const Card: FunctionComponent<ICardProps> = ({
       </div>
       <div className="px-6 pb-4">
         <Heading level={3}>{title}</Heading>
-        <p className="text-dark">{description}</p>
-        <Button label="Read Article" type="link" path={path} />
+        <p className="text-dark py-4">{description}</p>
+        <Button label="Read Article" type="link" path={slug} />
       </div>
     </article>
   );

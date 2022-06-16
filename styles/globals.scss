@@ -2,122 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Basic editor styles */
-.ProseMirror {
-  > * + * {
-    margin-top: 0.75em;
-  }
-
-  ul,
-  ol {
-    padding: 0 1rem;
-  }
-
+.post-content {
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    line-height: 1.1;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
   }
 
-  code {
-    background-color: rgba(#616161, 0.1);
-    color: #616161;
+  h1 {
+    @apply text-4xl;
   }
 
-  .hljs-comment,
-  .hljs-quote {
-    color: #616161;
+  h2 {
+    @apply text-3xl;
   }
 
-  .hljs-variable,
-  .hljs-template-variable,
-  .hljs-attribute,
-  .hljs-tag,
-  .hljs-name,
-  .hljs-regexp,
-  .hljs-link,
-  .hljs-name,
-  .hljs-selector-id,
-  .hljs-selector-class {
-    color: #f98181;
+  h3 {
+    @apply text-2xl;
   }
 
-  .hljs-number,
-  .hljs-meta,
-  .hljs-built_in,
-  .hljs-builtin-name,
-  .hljs-literal,
-  .hljs-type,
-  .hljs-params {
-    color: #fbbc88;
+  h4,
+  h5,
+  h6 {
+    @apply text-base;
   }
 
-  .hljs-string,
-  .hljs-symbol,
-  .hljs-bullet {
-    color: #b9f18d;
-  }
+  p {
+    margin-bottom: 1rem;
 
-  .hljs-title,
-  .hljs-section {
-    color: #faf594;
-  }
-
-  .hljs-keyword,
-  .hljs-selector-tag {
-    color: #70cff8;
-  }
-
-  .hljs-emphasis {
-    font-style: italic;
-  }
-
-  .hljs-strong {
-    font-weight: 700;
-  }
-
-  pre {
-    background: #0d0d0d;
-    color: #fff;
-    font-family: "JetBrainsMono", monospace;
-    padding: 0.75rem 1rem;
-    border-radius: 0.5rem;
+    img {
+      margin: 1rem auto;
+      max-height: 350px;
+    }
 
     code {
-      color: inherit;
-      padding: 0;
-      background: none;
-      font-size: 0.8rem;
+      @apply bg-primary bg-opacity-20;
+      padding: 2.5px;
+      font-style: italic;
     }
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
+  a {
+    text-decoration: underline;
+    @apply text-primary;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration-thickness: 2px;
+    }
   }
 
   blockquote {
-    padding-left: 1rem;
-    border-left: 2px solid rgba(#0d0d0d, 0.1);
-  }
-
-  hr {
-    border: none;
-    border-top: 2px solid rgba(#0d0d0d, 0.1);
-    margin: 2rem 0;
-  }
-}
-
-.wysiwyg-menu {
-  padding: 1rem;
-  @apply bg-primary;
-  @apply text-light;
-  button {
-    padding: 0.5rem;
-    margin: 0.25rem;
-    @apply border-light border-2;
+    @apply bg-primary bg-opacity-20 border-l-8 border-primary;
+    font-style: italic;
+    padding: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    p {
+      margin-bottom: 0;
+    }
   }
 }

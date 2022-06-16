@@ -20,5 +20,5 @@ export interface ICardProps {
     imageAlt: string;
     description: string;
     tags: string[];
-    path: string;
+    slug: string;
 }

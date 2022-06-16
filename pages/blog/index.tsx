@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import { Posts } from "../../partials/blog/blog";
 import { Hero } from "../../partials/blog/hero";
-import { supabase } from "../../utils/client";
+import { getAllPosts } from "../../utils/api";
 
 const Blog: NextPage = ({ posts }: any) => {
   return (
@@ -56,7 +56,8 @@ const Blog: NextPage = ({ posts }: any) => {
 export default Blog;
 
 export async function getStaticProps() {
-  const { data } = await supabase.from("posts").select();
+  const data = getAllPosts(["title", "description", "slug", "tags", "image"]);
+
   return {
     props: {
       posts: data,

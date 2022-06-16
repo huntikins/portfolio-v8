@@ -20,7 +20,7 @@ export const Posts: FunctionComponent<IBlogProps> = ({ posts }) => {
               imageAlt={post.title}
               description={post.description}
               tags={post.tags}
-              path={`/blog/${post.path}`}
+              slug={`/blog/${post.slug}`}
             />
           ))}
       </div>
