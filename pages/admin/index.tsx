@@ -20,7 +20,7 @@ const Admin: NextPage = () => {
       if (error) {
         alert(JSON.stringify(error));
       } else {
-        router.push("/admin/new-post");
+        router.push("/admin/post");
       }
     };
 

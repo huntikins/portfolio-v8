@@ -2,15 +2,15 @@ import { NextPage } from "next";
 import { useRouter } from "next/router";
 import { MouseEventHandler, useEffect, useRef, useState } from "react";
 import { User } from "@supabase/supabase-js";
-import { supabase } from "../../utils/client";
-import { Section } from "../../components/layout/section";
-import { Heading } from "../../components/ui/heading";
-import { Wysiwyg } from "../../components/editor/wysiwyg";
+import { supabase } from "../../../utils/client";
+import { Section } from "../../../components/layout/section";
+import { Heading } from "../../../components/ui/heading";
+import { Wysiwyg } from "../../../components/editor/wysiwyg";
 
 const NewPost: NextPage = () => {
   const router = useRouter();
   const [user, setUser] = useState<User | null>();
-  const [body, setBody] = useState<string | undefined>();
+  const [body, setBody] = useState<string | undefined>("");
   const title = useRef<HTMLInputElement>(null);
   const description = useRef<HTMLInputElement>(null);
   const image = useRef<HTMLInputElement>(null);
@@ -174,7 +174,7 @@ const NewPost: NextPage = () => {
             ref={path}
           />
         </div>
-        <Wysiwyg setBody={setBody} />
+        <Wysiwyg setBody={setBody} body={body} />
         <button
           className="mt-6 text-lg bg-primary block text-light font-semibold bg-green-500 py-3 px-6 rounded-md focus:outline-none focus:ring-2"
           onClick={handleSubmit}

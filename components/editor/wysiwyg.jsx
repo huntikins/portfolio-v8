@@ -116,7 +116,7 @@ const MenuBar = ({ editor }) => {
   );
 };
 
-export const Wysiwyg = ({setBody}) => {
+export const Wysiwyg = ({setBody, body}) => {
   const editor = useEditor({
     extensions: [StarterKit],
     editorProps: {
@@ -129,13 +129,14 @@ export const Wysiwyg = ({setBody}) => {
       // send the content to an API here
       setBody(html)
     },
-    content: "<p>Hello World! 🌎️</p>",
+    content: body,
   });
 
+
   return (
-    <>
+    <div key="body">
       <MenuBar editor={editor} />
       <EditorContent editor={editor} />
-    </>
+    </div>
   );
 };
