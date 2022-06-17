@@ -1,15 +1,14 @@
 import * as fs from "fs";
 import { getAllPosts } from "../utils/api";
 
-const Sitemap = () => {
-  return null;
-};
+const Sitemap = () => {};
 
 export const getServerSideProps = async ({ res }: any) => {
   const BASE_URL = "https://huntertrammell.dev";
+  const BASE_DIR = process.env.NODE_ENV === "production" ? "./" : "pages";
 
   const staticPaths = fs
-    .readdirSync("pages")
+    .readdirSync(BASE_DIR)
     .filter((staticPage) => {
       return ![
         "api",
