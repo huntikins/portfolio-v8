@@ -31,7 +31,7 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
         />
         <meta
           property="og:image"
-          content="https://huntertrammell.dev/soclai.jpg"
+          content="https://huntertrammell.dev/social.jpg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -46,7 +46,7 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
         />
         <meta
           property="twitter:image"
-          content="https://huntertrammell.dev/soclai.jpg"
+          content="https://huntertrammell.dev/social.jpg"
         />
       </Head>
       <Hero />
