@@ -6,6 +6,7 @@ import { getAllPosts, getPostBySlug } from "../../utils/api";
 import markdownToHtml from "../../utils/markdownToHTML";
 import { Params } from "next/dist/server/router";
 import "prismjs/themes/prism-tomorrow.css";
+import { Button } from "../../components/ui/button";
 
 const BlogPost = ({ post }: any) => {
   const date = new Date(post.created_at).toLocaleDateString("en-us", {
@@ -72,6 +73,63 @@ const BlogPost = ({ post }: any) => {
             className="post-content"
             dangerouslySetInnerHTML={{ __html: post.content }}
           ></div>
+        </div>
+      </Section>
+      <Section>
+        <div>
+          <Heading level={3} align="center">
+            Enjoyed this article? Connect with me on Social!
+          </Heading>
+          <div className="pt-6 flex items-center justify-center flex-col lg:flex-row">
+            <Button
+              type="link"
+              path="https://twitter.com/@trammellwebdev"
+              newTab={true}
+              label="Follow Me On Twitter"
+              theme="primary"
+            />
+            <Button
+              type="link"
+              path="https://linkedin.com/in/huntertrammell"
+              newTab={true}
+              label="Connect With Me On LinkedIn"
+              theme="secondary"
+            />
+          </div>
+        </div>
+      </Section>
+      <Section>
+        <Heading level={2} align="center">
+          About Hunter Trammell
+        </Heading>
+        <div className="flex items-center justify-center flex-col lg:flex-row max-w-4xl mx-auto mt-4">
+          <div className="w-full lg:w-1/3 flex items-center justify-center">
+            <div className="rounded-full inline-block overflow-hidden border-8 h-52 w-52 border-opacity-40 border-primary">
+              <Image
+                src="/hunter.jpg"
+                height={150}
+                width={150}
+                alt="Image of Hunter Trammell"
+                layout="responsive"
+              />
+            </div>
+          </div>
+          <div className="w-full lg:w-2/3 mt-4 lg:mt-0">
+            <p className="pb-2 italic font-bold">
+              &quot;The largest room in the world is the room for
+              improvement.&quot; - Unknown
+            </p>
+            <p>
+              While I can&apos;t say where that quote originated, I can say as a Full
+              Stack Web Developer I am constantly reminded of this ever
+              expansive room for improvement. There are always new technologies
+              to learn, a JavaScript method to discover, or even development
+              tools to take advantage of. In this infinite room, how does one
+              quench that endless thirst for knowledge? We drink until we&apos;re
+              full — so let&apos;s crack open a cold one and dive into some Web
+              Development concepts.
+            </p>
+          </div>
         </div>
       </Section>
     </>
