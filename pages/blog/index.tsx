@@ -29,7 +29,7 @@ const Blog: NextPage = ({ posts }: any) => {
         />
         <meta
           property="og:image"
-          content="https://huntertrammell.dev/home-about.svg"
+          content="https://huntertrammell.dev/social.jpg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ const Blog: NextPage = ({ posts }: any) => {
         />
         <meta
           property="twitter:image"
-          content="https://huntertrammell.dev/home-about.svg"
+          content="https://huntertrammell.dev/social.jpg"
         />
       </Head>
       <Hero />
