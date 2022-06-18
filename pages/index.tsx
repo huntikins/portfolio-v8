@@ -10,7 +10,7 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
   return (
     <>
       <Head>
-        <title>Hunter Trammell&apos;s Blog</title>
+        <title>Hunter Trammell | Front End Web Developer</title>
         <meta name="title" content="Hunter Trammell's Blog" />
         <meta
           name="description"
@@ -21,7 +21,10 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://huntertrammell.dev" />
-        <meta property="og:title" content="Hunter Trammell's Blog" />
+        <meta
+          property="og:title"
+          content="Hunter Trammell | Front End Web Developer"
+        />
         <meta
           property="og:description"
           content="I'm a Front End Developer from
@@ -36,7 +39,10 @@ const Home: NextPage<IHomeProps> = ({posts}) => {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://huntertrammell.dev" />
-        <meta property="twitter:title" content="Hunter Trammell's Blog" />
+        <meta
+          property="twitter:title"
+          content="Hunter Trammell | Front End Web Developer"
+        />
         <meta
           property="twitter:description"
           content="I'm a Front End Developer from
