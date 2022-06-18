@@ -1,6 +1,6 @@
 ---
 title: "Understanding the difference between call, bind, and apply in JavaScript"
-description: "It can be hard to tell when is the right time to use certain methods, especially if they perform a similar action. Let's take a look at call, bind, and apply to see when you should use each"
+description: "It can be hard to tell when is the right time to use certain methods, especially if they perform a similar action. Let's take a look at call, bind, and apply to see when you should use each."
 image: "/call-bind-apply.jpg"
 created_at: "06/16/2022"
 tags: ["JavaScript"]
