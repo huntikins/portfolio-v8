@@ -29,7 +29,7 @@ const BlogPost = ({ post }: any) => {
         />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.description} />
-        <meta property="og:image" content={post.image} />
+        <meta property="og:image" content={`https://huntertrammell.dev${post.image}`} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
@@ -37,7 +37,7 @@ const BlogPost = ({ post }: any) => {
         />
         <meta property="twitter:title" content={post.title} />
         <meta property="twitter:description" content={post.description} />
-        <meta property="twitter:image" content={post.image} />
+        <meta property="twitter:image" content={`https://huntertrammell.dev${post.image}`} />
       </Head>
       <Section>
         <div>
