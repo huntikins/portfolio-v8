@@ -4,7 +4,8 @@ import { Posts } from "../../partials/blog/blog";
 import { Hero } from "../../partials/blog/hero";
 import { getAllPosts } from "../../utils/api";
 
-const Blog: NextPage = ({ posts }: any) => {
+const Blog: NextPage = ({ posts, tags }: any) => {
+
   return (
     <>
       <Head>
@@ -48,7 +49,7 @@ const Blog: NextPage = ({ posts }: any) => {
         />
       </Head>
       <Hero />
-      <Posts posts={posts} />
+      <Posts posts={posts} tags={tags} />
     </>
   );
 };
@@ -56,11 +57,23 @@ const Blog: NextPage = ({ posts }: any) => {
 export default Blog;
 
 export async function getStaticProps() {
-  const data = getAllPosts(["title", "description", "slug", "tags", "image", "created_at"]);
+  const data = getAllPosts([
+    "title",
+    "description",
+    "slug",
+    "tags",
+    "image",
+    "created_at",
+  ]);
+
+  const tags = data.map((post) => {
+    return post.tags;
+  });
 
   return {
     props: {
       posts: data,
+      tags: [...new Set(tags.flat())],
     },
   };
 }
