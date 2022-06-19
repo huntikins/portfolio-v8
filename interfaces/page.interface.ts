@@ -4,7 +4,7 @@ export interface IHomeProps {
 
 export interface IBlogProps {
   posts: any;
-  tags: any;
+  tags?: any;
 }
 
 declare global {
