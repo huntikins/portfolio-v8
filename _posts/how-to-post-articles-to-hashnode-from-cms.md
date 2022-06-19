@@ -1,7 +1,7 @@
 ---
 title: "How To Post Articles From Your Existing CMS Using The Hashnode API"
 description: "About a month ago I decided to migrate my existing blog over to Hashnode. I was hosting my blog on my portfolio site but hadn't felt like I was moving..."
-image: "/hashnode.jpg"
+image: "/images/blog-cover/hashnode.jpg"
 created_at: "08/06/2021"
 tags: ["API", "JavaScript", "API"]
 canonical: "https://blog.huntertrammell.dev/how-to-post-articles-from-your-existing-cms-using-the-hashnode-api"

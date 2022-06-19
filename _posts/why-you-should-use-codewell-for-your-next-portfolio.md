@@ -1,7 +1,7 @@
 ---
 title: "5 reasons why you should use Codewell for your next portfolio project"
 description: "Free yourself from tutorial hell · Your portfolio is a powerful tool that can give you a leg up when it comes to looking for a job. Employers don't care..."
-image: "/codewell.png"
+image: "/images/blog-cover/codewell.png"
 created_at: "07/22/2021"
 tags: ["Advice", "Skills"]
 canonical: "https://blog.huntertrammell.dev/5-reasons-why-you-should-use-codewell-for-your-next-portfolio-project"

@@ -1,7 +1,7 @@
 ---
 title: "The Beginners Guide to Building Production-ready Apps with Next.js"
 description: "The What, How, and Why of Next.js · Over the last week, I have been a happy citizen in the wonderful world of Next.js. I have always defaulted to Vue.js..."
-image: "/intro-to-nextjs.jpg"
+image: "/images/blog-cover/intro-to-nextjs.jpg"
 created_at: "08/21/2021"
 tags: ["Next.js"]
 canonical: "https://blog.huntertrammell.dev/the-beginners-guide-to-building-production-ready-apps-with-nextjs-part-one-the-what-how-and-why-of-nextjs"

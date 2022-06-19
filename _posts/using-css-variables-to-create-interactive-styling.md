@@ -1,7 +1,7 @@
 ---
 title: "Using CSS Variables with JavaScript to create interactive styling"
 description: "CSS variables can be a great way to keep your code organized but can also be set and accessed in javascript to create powerful interactive styles."
-image: "/interactive-css.jpg"
+image: "/images/blog-cover/interactive-css.jpg"
 created_at: "06/17/2022"
 tags: ["Project", "CSS", "JavaScript"]
 ---

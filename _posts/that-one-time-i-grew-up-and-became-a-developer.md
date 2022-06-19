@@ -1,7 +1,7 @@
 ---
 title: "That One Time I Grew Up And Became A Web Developer"
 description: "I've wanted to be many things in life: Writer, Tattoo Artist, Restaurateur, Architect, and loads more I can't recall. I frequently get inspired and..."
-image: "/that-one-time.jpg"
+image: "/images/blog-cover/that-one-time.jpg"
 created_at: "07/18/2021"
 tags: ["Personal", "Advice"]
 canonical: "https://blog.huntertrammell.dev/that-one-time-i-grew-up-and-became-a-web-developer"

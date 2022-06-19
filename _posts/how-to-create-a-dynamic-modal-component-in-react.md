@@ -1,7 +1,7 @@
 ---
 title: "How To Create A Dynamic Modal Component In React"
 description: "Our Hero scrolls casually through a webpage when suddenly everything goes dark! Feverishly, they spin the scroll wheel on their mouse but it's no use,..."
-image: "/react-modal.jpg"
+image: "/images/blog-cover/react-modal.jpg"
 created_at: "01/19/2021"
 tags: ["React", "JavaScript"]
 canonical: "https://blog.huntertrammell.dev/how-to-create-a-dynamic-modal-component-in-react"

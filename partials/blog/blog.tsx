@@ -33,7 +33,7 @@ export const Posts: FunctionComponent<IBlogProps> = ({ posts }) => {
             ))}
       </div>
       <div className="text-center">
-        {postNum !== posts.length && (
+        {postNum < posts.length && (
           <button
             className="py-2 px-4 inline-block font-bold hover:opacity-80 border-2 border-primary mb-2 mt-6 mr-2 text-center bg-primary text-light"
             onClick={showMore}

@@ -1,7 +1,7 @@
 ---
 title: "How Tutoring Can Boost Your Knowledge and Understanding of Web Development"
 description: "At the beginning of this year, I decided to focus more on development as I felt my skillset had started plateauing. I am the only developer at the..."
-image: "/tutoring.jpg"
+image: "/images/blog-cover/tutoring.jpg"
 created_at: "07/25/2021"
 tags: ["Skills", "Career"]
 canonical: "https://blog.huntertrammell.dev/how-tutoring-can-boost-your-knowledge-and-understanding-of-web-development"

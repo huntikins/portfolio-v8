@@ -1,7 +1,7 @@
 ---
 title: "A Brief Introduction To Web Components"
 description: "A few years ago I attended a local Drupal meetup and there was a guest speaker who gave a presentation about Web Components. I had..."
-image: "/web-components.jpg"
+image: "/images/blog-cover/web-components.jpg"
 created_at: "03/14/2021"
 tags: ["Web Components", "JavaScript"]
 canonical: "https://blog.huntertrammell.dev/a-brief-introduction-to-web-components"

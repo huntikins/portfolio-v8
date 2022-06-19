@@ -1,8 +1,8 @@
 ---
 title: "How to create a blog using Markdown and Next.js"
 description: "I recently rebuilt my blog site using Next.js and Markdown, I learned a lot from this process and am really happy with the results. In this article I will show you what you can do to create your own blog using Next.js"
-image: "/blog-tutorial.jpg"
-created_at: "06/19/2022"
+image: "/images/blog-cover/blog-tutorial.jpg"
+created_at: "06/18/2022"
 tags: ["Project", "Next.js", "Tutorial"]
 ---
 

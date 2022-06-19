@@ -1,7 +1,7 @@
 ---
 title: "Getting Started With Serverless Functions on Netlify"
 description: "Have you ever listened to a new song and it was the only thing that played in your head for days on end? Well, get ready because Netlify Serverless..."
-image: "/netlify-cloud.jpg"
+image: "/images/blog-cover/netlify-cloud.jpg"
 created_at: "07/29/2021"
 tags: ["Netlify", "JavaScript", "API"]
 canonical: "https://blog.huntertrammell.dev/getting-started-with-serverless-functions-on-netlify"
