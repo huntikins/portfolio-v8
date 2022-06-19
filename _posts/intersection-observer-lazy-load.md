@@ -1,7 +1,7 @@
 ---
 title: "How to use the Intersection Observer API to lazy load your images"
 description: "Using the Intersection Observer can be a great way to add performance boosts to your website. In this article we will take a look at how the Intersection Observer works and how you can lazy load your images."
-image: "/intersection-observer.jpg"
+image: "/images/blog-cover/intersection-observer.jpg"
 created_at: "06/15/2022"
 tags: ["Project", "JavaScript"]
 ---
