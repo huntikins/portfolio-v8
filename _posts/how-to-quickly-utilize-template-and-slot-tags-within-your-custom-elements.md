@@ -1,5 +1,5 @@
 ---
-title: "How to quickly utilize template and slot elements within your custom elements"
+title: "How to quickly utilize template and slot tags within your custom elements"
 description: "Web Components can be especially useful for repeatable content when utilizing the template and slot tags. Let's learn how to create a reusable template and populate data with slots."
 image: "/images/blog-cover/template-and-slot-custom-elements.jpg"
 created_at: "06/19/2022"
