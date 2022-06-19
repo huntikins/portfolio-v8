@@ -15,10 +15,11 @@ export interface IHeadingProps {
 }
 
 export interface ICardProps {
-    title: string;
-    image: string;
-    imageAlt: string;
-    description: string;
-    tags: string[];
-    slug: string;
+  title: string;
+  image: string;
+  imageAlt: string;
+  description: string;
+  tags: string[];
+  slug: string;
+  created_at: string;
 }

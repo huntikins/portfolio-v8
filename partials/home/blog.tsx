@@ -22,6 +22,7 @@ export const Blog: FunctionComponent<IBlogProps> = ({ posts }) => {
                 imageAlt={post.title}
                 description={post.description}
                 tags={post.tags}
+                created_at={post.created_at}
                 slug={`/blog/${post.slug}`}
               />
             ))}
