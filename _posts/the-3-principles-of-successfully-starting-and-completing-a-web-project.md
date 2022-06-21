@@ -32,7 +32,7 @@ When it comes to a new project it is helpful to know what you are building and h
 
 I have started a project using a single tech stack, then migrated to another halfway through because I made the wrong decision. I spent a lot of time converting from one framework to another and that time could have been put towards active development instead. This is a costly mistake and once that can be prevented by having a clear procedure in place. 
 
-Another thing that can be difficult is knowing _where_ to start. A phrase I often say to myself is _"It all starts with a _button"_. Meaning if you don't know where to start why don't you work on button styles? Let's say you have a sketch or a mockup available, scan through the page and make note of the different components/elements in use. You will most likely have a button or link that needs to have a consistent appearance. While you are more than welcome to start building any other component/element it can be handy to always have the same starting place. 
+Another thing that can be difficult is knowing _where_ to start. A phrase I often say to myself is _"It all starts with a button"_. Meaning if you don't know where to start why don't you work on button styles? Let's say you have a sketch or a mockup available, scan through the page and make note of the different components/elements in use. You will most likely have a button or link that needs to have a consistent appearance. While you are more than welcome to start building any other component/element it can be handy to always have the same starting place. 
 
 ## Conclusion
 
