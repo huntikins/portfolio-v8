@@ -16,6 +16,12 @@ export const getServerSideProps = async ({ res }: any) => {
         "_document.tsx",
         "sitemap.xml.tsx",
         "index.tsx",
+        ".next",
+        "package.json",
+        "___next_launcher.cjs",
+        "___vc",
+        "_posts",
+        "node_modules",
       ].includes(staticPage);
     })
     .map((staticPagePath) => {
