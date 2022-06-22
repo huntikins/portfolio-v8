@@ -29,6 +29,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/contact",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/tag/:slug",
+        destination: "/",
+        permanent: true,
+      },
+      {
         source: "/portfolio/:slug",
         destination: "/",
         permanent: true,
