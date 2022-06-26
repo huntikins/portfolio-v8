@@ -7,8 +7,9 @@ import markdownToHtml from "../../utils/markdownToHTML";
 import { Params } from "next/dist/server/router";
 import "prismjs/themes/prism-tomorrow.css";
 import { Button } from "../../components/ui/button";
+import { Card } from "../../components/ui/card";
 
-const BlogPost = ({ post }: any) => {
+const BlogPost = ({ post, recentPosts }: any) => {
   const date = new Date(post.created_at).toLocaleDateString("en-us", {
     weekday: "long",
     year: "numeric",
@@ -29,7 +30,10 @@ const BlogPost = ({ post }: any) => {
         />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.description} />
-        <meta property="og:image" content={`https://huntertrammell.dev${post.image}`} />
+        <meta
+          property="og:image"
+          content={`https://huntertrammell.dev${post.image}`}
+        />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
@@ -37,7 +41,10 @@ const BlogPost = ({ post }: any) => {
         />
         <meta property="twitter:title" content={post.title} />
         <meta property="twitter:description" content={post.description} />
-        <meta property="twitter:image" content={`https://huntertrammell.dev${post.image}`} />
+        <meta
+          property="twitter:image"
+          content={`https://huntertrammell.dev${post.image}`}
+        />
       </Head>
       <Section>
         <div>
@@ -120,16 +127,36 @@ const BlogPost = ({ post }: any) => {
               improvement.&quot; - Unknown
             </p>
             <p>
-              While I can&apos;t say where that quote originated, I can say as a Full
-              Stack Web Developer I am constantly reminded of this ever
+              While I can&apos;t say where that quote originated, I can say as a
+              Full Stack Web Developer I am constantly reminded of this ever
               expansive room for improvement. There are always new technologies
               to learn, a JavaScript method to discover, or even development
               tools to take advantage of. In this infinite room, how does one
-              quench that endless thirst for knowledge? We drink until we&apos;re
-              full — so let&apos;s crack open a cold one and dive into some Web
-              Development concepts.
+              quench that endless thirst for knowledge? We drink until
+              we&apos;re full — so let&apos;s crack open a cold one and dive
+              into some Web Development concepts.
             </p>
           </div>
+        </div>
+      </Section>
+      <Section>
+        <Heading level={2} align="center">
+          Latest Posts
+        </Heading>
+        <div className="pt-8 grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {recentPosts &&
+            recentPosts.map((post: any, index: number) => (
+              <Card
+                key={index}
+                title={post.title}
+                image={post.image}
+                imageAlt={post.title}
+                description={post.description}
+                tags={post.tags}
+                created_at={post.created_at}
+                slug={`/blog/${post.slug}`}
+              />
+            ))}
         </div>
       </Section>
     </>
@@ -151,12 +178,24 @@ export async function getStaticProps({ params }: Params) {
   ]);
   const content = await markdownToHtml(post.content || "");
 
+  const posts = getAllPosts([
+    "title",
+    "description",
+    "slug",
+    "tags",
+    "image",
+    "created_at",
+  ]);
+
   return {
     props: {
       post: {
         ...post,
         content,
       },
+      recentPosts: posts
+        .filter((posts) => posts.title !== post.title)
+        .slice(0, 3),
     },
   };
 }
