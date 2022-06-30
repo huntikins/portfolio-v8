@@ -1,6 +1,6 @@
 ---
 title: "A quick look at Vue.js directives and how to use them"
-description: "Vus.js is a powerful JavaScript framework that contains several built-in directives that you can utilize to create responsive applications, let's take a look at them."
+description: "Vue.js is a powerful JavaScript framework that contains several built-in directives that you can utilize to create responsive applications, let's take a look at them."
 image: "/images/blog-cover/vue-directives.jpg"
 created_at: "06/26/2022"
 tags: ["Vue.js", "JavaScript"]
