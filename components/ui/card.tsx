@@ -25,13 +25,12 @@ export const Card: FunctionComponent<ICardProps> = ({
   return (
     <article className="max-w-sm rounded overflow-hidden shadow-lg bg-tertiary bg-opacity-20 mb-4">
       <div className="relative bg-primary">
-        <div className="w-full opacity-80">
+        <div className="w-full opacity-80 relative h-64">
           <Image
             src={image}
             alt={imageAlt}
-            width={358}
-            height={260}
-            layout="responsive"
+            className="object-cover"
+            layout="fill"
           />
         </div>
         <div className="px-6 pt-4 absolute bottom-0">
