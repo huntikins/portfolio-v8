@@ -6,7 +6,7 @@ import { IBlogProps } from "../../interfaces/page.interface";
 
 export const Blog: FunctionComponent<IBlogProps> = ({ posts }) => {
   return (
-    <Section>
+    <Section theme="tertiary">
       <Heading level={2} align="center">
         Recent Posts
       </Heading>

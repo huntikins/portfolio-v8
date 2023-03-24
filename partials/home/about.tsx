@@ -7,7 +7,7 @@ import graphic from "../../public/home-about.svg";
 
 export const About: FunctionComponent = () => {
   return (
-    <Section theme="tertiary">
+    <Section>
       <div className="flex flex-col lg:flex-row">
         <div className="order-2 pt-8 lg:pt-0 lg:w-1/2 lg:order-1">
           <Heading level={2}>Get To Know Me</Heading>
