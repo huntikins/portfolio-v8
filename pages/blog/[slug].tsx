@@ -8,6 +8,7 @@ import { Params } from "next/dist/server/router";
 import "prismjs/themes/prism-tomorrow.css";
 import { Button } from "../../components/ui/button";
 import { Card } from "../../components/ui/card";
+import { PromoEBook } from "../../partials/marketing/mastering-react-book-promo";
 
 const BlogPost = ({ post, recentPosts }: any) => {
   const date = new Date(post.created_at).toLocaleDateString("en-us", {
@@ -82,6 +83,7 @@ const BlogPost = ({ post, recentPosts }: any) => {
           ></div>
         </div>
       </Section>
+      <PromoEBook />
       <Section>
         <div>
           <Heading level={3} align="center">

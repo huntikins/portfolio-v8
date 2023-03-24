@@ -83,3 +83,17 @@
     list-style: numeric;
   }
 }
+
+html, body {
+  @apply bg-light;
+}
+
+.inline-link {
+    text-decoration: underline;
+    @apply text-primary;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration-thickness: 2px;
+    }
+}

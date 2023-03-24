@@ -15,7 +15,7 @@ export const About: FunctionComponent = () => {
             Howdy folks, my name is Hunter and I am a Front End Developer
             currently working at VMLY&R. Whether it&apos;s writing, teaching,
             learning, or writing about code - I just can&apos;t get enough. I started
-            my coding journey in 2019 when I made a career switch from being an
+            my coding journey in 2018 when I made a career switch from being an
             IT Help Desk agent and enrolled in a coding bootcamp through a local
             university. It was then that I truly fell in love with coding. I
             recently had the opportunity to teach that very same course and it

@@ -15,15 +15,21 @@ export const Hero: FunctionComponent = () => {
         </div>
       </div>
       <p className="py-4">
-        I&apos;m a Front End Developer from Kansas City. Welcome to my blog, here I
-        will post anything from short stories to coding-related articles and
-        tutorials. I hope you enjoy, Happy Coding!!
+        I&apos;m a Front End Developer hailing from Kansas City, and I&apos;m excited
+        to welcome you to my blog! Here, you&apos;ll find a diverse range of content,
+        from intriguing short stories to informative coding-related articles and
+        tutorials. I&apos;m also thrilled to announce the recent publication of my
+        book on React, Mastering React.js: A Comprehensive Guide to Building
+        Modern, Scalable Web Applications, which I believe will be a valuable
+        resource for fellow developers. Don&apos;t miss out on this opportunity to
+        elevate your skills - check it out now by clicking here! Happy Coding
+        and enjoy your stay on my blog!
       </p>
       <div>
         <Button
-          label="Say Hello"
+          label="Check It Out Now!"
           type="link"
-          path="mailto:hunterttrammell@gmail.com"
+          path="/books/master-react-js-comprehensive-guide-scalable-web-applications"
         />
       </div>
     </Section>
