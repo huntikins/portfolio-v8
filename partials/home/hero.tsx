@@ -12,7 +12,9 @@ export const Hero: FunctionComponent = () => {
           <div>
             <Heading level={1}>Hi, I&apos;m Hunter!</Heading>
             <Heading level={2} theme="secondary">
-              Senior Software Engineer, Blogger, Cetacean Enthusiast, Taco Bell Fanboy, Slinger of Dank Code.
+              Senior Software Engineer, Blogger, </br>
+              Cetacean Enthusiast, Taco Bell Fanboy, </br>
+              Slinger of Dank Code.
             </Heading>
           </div>
         </div>
@@ -25,7 +27,7 @@ export const Hero: FunctionComponent = () => {
         </p>
         <div>
           <Button
-            label="Check It Out Now!"
+            label="Let's chat!"
             type="link"
             path="mailto:hello@huntertrammell.dev"
           />
