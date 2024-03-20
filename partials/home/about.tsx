@@ -12,7 +12,7 @@ export const About: FunctionComponent = () => {
         <div className="order-2 pt-8 lg:pt-0 lg:w-1/2 lg:order-1">
           <Heading level={2}>Get To Know Me</Heading>
           <p className="py-4">
-            Howdy folks, my name is Hunter and I am a Senior Socftware Engineer
+            Howdy folks, my name is Hunter and I am a Senior Software Engineer
             currently working for VML. Whether it&apos;s writing, teaching,
             learning, or writing about code - I just can&apos;t get enough. I started
             my coding journey back in 2018 when I made a career switch from being an
