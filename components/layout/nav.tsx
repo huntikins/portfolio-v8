@@ -19,7 +19,7 @@ export const Nav: FunctionComponent = () => {
         <ul className="flex">
           <li>
             <a
-              href="https://github.com/huntertrammell"
+              href="https://github.com/huntikins"
               target="_blank"
               rel="noreferrer"
             >
