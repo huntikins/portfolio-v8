@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Zen: Simplifying FrontEnd Development with Alpine.js"
-description: "To quote the creator of Alpine.js, &quot;*I hope you find Alpine to be a breath of fresh air. Silence among noise.*&quot; Frontend development has evolved significantly over the years, empowering developers with countless ways to create modern web apps. JavaScript frameworks have helped to streamline development and boost productivity, but they have also presented their own unique set of challenges. In this session, we&apos;ll look at the advantages of adopting a *&quot;utility-first&quot;* framework such as Alpine.js to simplify your frontend without sacrificing functionality as well as some of it&apos;s limitations. We&apos;ll explore the benefits of leveraging Alpine.js within SSR applications to increase page speed and performance. Finally, we will demonstrate how *you* can integrate Alpine.js&apos; declarative templating into your projects - all of this and more without even touching a compiler."
+description: "To quote the creator of Alpine.js, 'I hope you find Alpine to be a breath of fresh air. Silence among noise.' Frontend development has evolved significantly over the years, empowering developers with countless ways to create modern web apps. Alpine.js aims to provide a minimalist alternative to big ol' noisy frameworks."
 image: "/images/blog-cover/javascript-zen.jpeg"
 created_at: "03/20/2024"
 tags: ["Alpine.js", "Tech Talks"]
