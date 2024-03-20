@@ -12,15 +12,15 @@ export const About: FunctionComponent = () => {
         <div className="order-2 pt-8 lg:pt-0 lg:w-1/2 lg:order-1">
           <Heading level={2}>Get To Know Me</Heading>
           <p className="py-4">
-            Howdy folks, my name is Hunter and I am a Front End Developer
-            currently working at VMLY&R. Whether it&apos;s writing, teaching,
+            Howdy folks, my name is Hunter and I am a Senior Socftware Engineer
+            currently working for VML. Whether it&apos;s writing, teaching,
             learning, or writing about code - I just can&apos;t get enough. I started
-            my coding journey in 2018 when I made a career switch from being an
-            IT Help Desk agent and enrolled in a coding bootcamp through a local
-            university. It was then that I truly fell in love with coding. I
-            recently had the opportunity to teach that very same course and it
-            was a great experience. I currently enjoy working with Next.js,
-            Webpack, AEM, Alpine.js, TypeScript and Tailwind but am always
+            my coding journey back in 2018 when I made a career switch from being an
+            IT Help Desk agent and enrolled in a coding bootcamp through the University of Kansas.
+            It was then that I truly fell in love with coding. I had the opportunity a few years back 
+            to teach that very same course and it was super cool to come full circle. 
+            I currently am interested in Software Design & Architecture, Next.js,
+            Vite, AEM, Java, Alpine.js, TypeScript and Tailwind but am always
             learning and revisiting technologies.
           </p>
           <div className="flex flex-col lg:flex-row">
