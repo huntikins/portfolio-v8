@@ -12,8 +12,8 @@ export const Hero: FunctionComponent = () => {
           <div>
             <Heading level={1}>Hi, I&apos;m Hunter!</Heading>
             <Heading level={2} theme="secondary">
-              Senior Software Engineer, Blogger, </br>
-              Cetacean Enthusiast, Taco Bell Fanboy, </br>
+              Senior Software Engineer, Blogger, <br>
+              Cetacean Enthusiast, Taco Bell Fanboy, <br>
               Slinger of Dank Code.
             </Heading>
           </div>
