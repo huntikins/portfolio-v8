@@ -14,16 +14,16 @@ export const Hero: FunctionComponent = () => {
             <Heading level={2} theme="secondary">
               Senior Software Engineer, Blogger, <br/>
               Cetacean Enthusiast, Taco Bell Fanboy, <br/>
-              Slinger of Dank Code.
+              Freelancer, Slinger of Dank Code.
             </Heading>
           </div>
         </div>
         <p className="py-4">
-          I&apos;m a Front End Developer hailing from Kansas City, and I&apos;m
+          I&apos;m a Senior Software Engineer from Kansas City, and I&apos;m
           excited to welcome you to my blog! Here, you&apos;ll find a diverse
           range of content, from intriguing short stories to informative
           coding-related articles and tutorials. Happy Coding and enjoy
-          your stay on my blog!🤘🐋
+          your stay!🤘🐋
         </p>
         <div>
           <Button
