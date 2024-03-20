@@ -7,7 +7,7 @@ import { PromoEBook } from "../marketing/mastering-react-book-promo";
 export const Hero: FunctionComponent = () => {
   return (
     <>
-      <Section>
+      <Section theme="tertiary">
         <div className="flex lg:items-center flex-col lg:flex-row">
           <div>
             <Heading level={1}>Hi, I&apos;m Hunter!</Heading>
