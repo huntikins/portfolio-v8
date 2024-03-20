@@ -11,8 +11,8 @@ export const Hero: FunctionComponent = () => {
         </div>
       </div>
       <p className="py-4">
-        Enjoyed an article or just want to say hi? Feel free to drop me a line,
-        i&apos;d be happy to connect. Alternatively feel free to reach me on
+        Enjoyed an article, interested in working with me, or just want to say hi? Feel free to drop me a line,
+        i&apos;d be happy to connect. Alternatively feel free to slide into my dm&apos;s on
         twitter{" "}
         <a
           href="http://twitter.com/@trammellwebdev"
