@@ -12,14 +12,9 @@ const Contact: NextPage = () => {
     <>
       <Hero />
       <Section theme="none">
-        {!isFormSubmitted ? (
-          <ContactForm setFormState={setIsFormSubmitted} />
-        ) : (
           <p className="text-primary">
-            Thank you for your message! I will get back to you as soon as
-            possible!
+            Unfortunatley the contact form is down at the moment while I migrate servers, please send me a message through LinkedIn or email me at <a href="mailto:hello@huntertrammell.dev">hello@huntertrammell.dev</a>
           </p>
-        )}
       </Section>
     </>
   );
