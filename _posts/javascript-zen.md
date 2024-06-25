@@ -1,7 +1,7 @@
 ---
 title: "KCDC 2024: JavaScript Zen"
 description: "Resources for 'JavaScript Zen: Simplifying Frontend Development With Alpine.js' presented at KCDC 2024"
-image: "/images/blog-cover/javascript-zen.jpeg"
+image: "/images/blog-cover/jszen.png"
 created_at: "06/27/2024"
 tags: ["Alpine.js", "Tech Talks", "KCDC"]
 ---
