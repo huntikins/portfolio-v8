@@ -19,7 +19,7 @@ Thank you for attending my talk! I hope you enjoyed learning how Alpine.js can s
 
 ## Alpine.js Resources
 
-### Sites
+### Reference
 
 - [Docs](https://alpinejs.dev/)
 - [Github](https://github.com/alpinejs/alpine)
@@ -33,6 +33,7 @@ Thank you for attending my talk! I hope you enjoyed learning how Alpine.js can s
 - [Alpine.js: The lightweight and powerful framework you should consider using for your next project](https://huntertrammell.dev/blog/alpinejs-the-lightweight-and-powerful-framework-you-should-use-for-your-next-project)
 - [How to create a portfolio site using Alpine.js and Tailwind CSS](https://huntertrammell.dev/blog/how-to-create-a-portfolio-site-using-alpine-and-tailwind)
 - [Introducing Alpine.js: A Tiny JavaScript Framework](https://www.smashingmagazine.com/2020/03/introduction-alpinejs-javascript-framework/)
+- [Alpine.js + jQuery/JavaScript Plugin Integration: a Select2 example](https://codewithhugo.com/alpinejs-jquery-plugin-integration-select2/)
 
 ## Feedback:
 If you are interested in providing feedback about the presentation, please [fill out this form](https://forms.gle/ScAYEtzXba8zNCCv8). As a thank you for filling out the survey, you will be entered into a raffle for a Meta Quest 3 at the KCDC closing ceremony!
