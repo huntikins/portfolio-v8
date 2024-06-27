@@ -25,6 +25,7 @@ Thank you for attending my talk! I hope you enjoyed learning how Alpine.js can s
 - [Github](https://github.com/alpinejs/alpine)
 - [Examples](https://www.alpinetoolbox.com/)
 - [DevTools](https://github.com/alpine-collective/alpinejs-devtools)
+- [2024 State of JS](https://2023.stateofjs.com/en-US/)
 
 ### Articles
 
