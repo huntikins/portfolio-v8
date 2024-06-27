@@ -26,6 +26,7 @@ Thank you for attending my talk! I hope you enjoyed learning how Alpine.js can s
 - [Examples](https://www.alpinetoolbox.com/)
 - [DevTools](https://github.com/alpine-collective/alpinejs-devtools)
 - [2024 State of JS](https://2023.stateofjs.com/en-US/)
+- [Livewire x Alpine](https://livewire.laravel.com/docs/alpine)
 
 ### Articles
 
@@ -34,4 +35,4 @@ Thank you for attending my talk! I hope you enjoyed learning how Alpine.js can s
 - [Introducing Alpine.js: A Tiny JavaScript Framework](https://www.smashingmagazine.com/2020/03/introduction-alpinejs-javascript-framework/)
 
 ## Feedback:
-If you are interested in providing feedback about the presentation, please [fill out this form](https://forms.gle/ScAYEtzXba8zNCCv8). As a thank you for filling out the survey, you will be entered into a raffle for a big prize at the KCDC closing ceremony!
+If you are interested in providing feedback about the presentation, please [fill out this form](https://forms.gle/ScAYEtzXba8zNCCv8). As a thank you for filling out the survey, you will be entered into a raffle for a Meta Quest 3 at the KCDC closing ceremony!
