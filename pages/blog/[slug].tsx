@@ -83,7 +83,6 @@ const BlogPost = ({ post, recentPosts }: any) => {
           ></div>
         </div>
       </Section>
-      <PromoEBook />
       <Section>
         <div>
           <Heading level={3} align="center">
